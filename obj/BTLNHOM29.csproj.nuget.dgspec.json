@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BTLNHOM29\\BTLNHOM29.csproj": {}
+    "c:\\Users\\nguye\\Downloads\\BTLNHOM29\\BTLNHOM29.csproj": {}
   },
   "projects": {
-    "D:\\BTLNHOM29\\BTLNHOM29.csproj": {
+    "c:\\Users\\nguye\\Downloads\\BTLNHOM29\\BTLNHOM29.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BTLNHOM29\\BTLNHOM29.csproj",
+        "projectUniqueName": "c:\\Users\\nguye\\Downloads\\BTLNHOM29\\BTLNHOM29.csproj",
         "projectName": "BTLNHOM29",
-        "projectPath": "D:\\BTLNHOM29\\BTLNHOM29.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\BTLNHOM29\\obj\\",
+        "projectPath": "c:\\Users\\nguye\\Downloads\\BTLNHOM29\\BTLNHOM29.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\nguye\\Downloads\\BTLNHOM29\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
